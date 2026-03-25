@@ -1,2 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
+body {
+    font-family: "Unbounded", sans-serif;
+    background-color: #ffffff;
+    cursor: url(assets/cursor.png), default;
+}
+
+.logo {
+    display: flex;
+    width: 75px;
+    height: 75px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #34363b;
+    justify-content: center;
+}
+
+.btn {
+    font-family: "Unbounded", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    background: #34363b;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    list-style: none;
+}
+
+footer {
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
